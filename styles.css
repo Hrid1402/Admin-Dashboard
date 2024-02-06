@@ -3,10 +3,160 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
     background-color: #e2e8f0;
+}
+.leftSide{
+    color: white;
+    background-color: #1992d4;
+}
+.leftSide .logo{
+    margin-left: 30px;
+    margin-bottom: 45px;
+}
+.rightSide{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.top-part{
+    display: flex;
+    flex-direction: column;
+}
+.top-part .part1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.top-part .part1 .searchBar{
+    margin-left: 55px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+}
+.top-part .part1 .searchBar svg{
+    height: 27px;
+    width: 27px;
+}
+.top-part .part1 .searchBar input{
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 800px;
+    margin-left: 15px;
+    padding-left: 15px;
+    background-color: #e2e8f0;
+}
+
+.top-part .part1 .searchBar input:focus{
+    background-color: #bae6fd;
+}
+
+.top-part .part1 .right-top{
+    margin-right:95px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-direction: row;
+    padding: 15px 0px;
+    align-items: center;
+}
+.top-part .part1 .right-top img{
+    height: 45px;
+    width: 45px;
+}
+
+.top-part .part1 .right-top p{
+    padding: 0;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 0;
+}
+.top-part .part1 .right-top svg{
+    height: 35px;
+    width: 35px;
+}
+.top-part .part2{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.371);
+}
+.top-part .part2 .leftPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-part .part2 .leftPart img{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 55px;
+    
+}
+.top-part .part2 .leftPart .textOnTop .p1{
+    padding: 0;
+    margin: 0;
+}
+.top-part .part2 .leftPart .textOnTop .p2{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.top-part .part2 .leftPart .textOnTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1px;
+}
+
+.top-part .part2 .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 92px;
+    gap: 15px
+}
+.top-part .part2 .buttons button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 17px;
+    background-color: #1992d4;
+    color: white;
+}
+.top-part .part2 .buttons button:hover{
+    background-color: #106c9d;
+}
+.top-part .part2 .buttons button:active{
+    background-color: white;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
 }
 .itemSideBar{
     display: flex;
+    align-items: center;
 }
 .itemSideBar svg{
     width: 100px;
