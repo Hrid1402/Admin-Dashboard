@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e2e8f0;
+}
+.itemSideBar{
+    display: flex;
+}
+.itemSideBar svg{
+    width: 100px;
+    height: 40px;
+}
+.projects .block{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: -10px 0px 0px 0px rgba(240,180,41,0.75);
+}
