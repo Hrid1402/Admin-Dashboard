@@ -15,10 +15,15 @@ body{
     font-weight: 500;
     font-size: 18px;
     background-color: #1992d4;
+    grid-row: 1/2;
+}
+.setings{
+    margin-top: 60px;
 }
 .leftSide .logo{
     margin-left: 30px;
     margin-bottom: 45px;
+    padding-right: 35px;
 }
 .top-part{
     display: flex;
@@ -140,6 +145,7 @@ body{
     padding: 10px 25px;
     font-size: 17px;
     background-color: #1992d4;
+    
     color: white;
 }
 .top-part .part2 .buttons button:hover{
@@ -160,7 +166,7 @@ body{
 }
 .content .projects .projects-content{
     padding: 15px 30px;
-    height: 100%;
+    height: 88%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: 1fr 1fr 1fr;
@@ -170,9 +176,31 @@ body{
 }
 
 .projects .projects-content .block{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 30px;
     border-radius: 12px;
     background-color: white;
     box-shadow: -10px 0px 0px 0px rgba(240,180,41,0.75);
+}
+.projects .projects-content .block p{
+    margin-top: 0;
+    padding-right: 100px;
+}
+.projects .projects-content .block .icons svg{
+    width: 30px;
+    height: 30px;
+}
+.projects .projects-content .block .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .content .ptrending{
@@ -218,6 +246,12 @@ body{
 
 .section-title{
     font-size: 25px;
+}
+.section-title-project{
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 0;
 }
 .trending .t-block{
     margin: 0;
